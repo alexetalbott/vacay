@@ -1,1 +1,8 @@
-// remember to hide display 
+#q2Answers {
+  display: none;
+}
+
+.answers {
+  font-style: italic;
+  font-weight: 900;
+}
