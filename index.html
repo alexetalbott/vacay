@@ -20,13 +20,37 @@
 
     <div id="quiz">
       <h3>Let's get started!</h3>
-      <ol>
-        <li>What is your first name?</li>
-        <li>What do you WISH your name was?</li>
-        //use the first name and concatenate with other options, like alex the great//
-        //radio option//
-        <li>pick your favorite color</li>
-        //use 
+      <form>
+        <ol>
+          <li>What is your first name?</li>
+          <li>What do you WISH your name was?</li>
+          <!-- use the first name and concatenate with other options, like alex the great;
+          radio option -->
+          <li>pick your favorite color</li>
+        <!--use input id equals color -->
+          <li>What is your better, shampoo or conditioner?</li>
+          <li>Which of the following places would you want to go?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="Dominican Republic" checked>
+              Dominican Republic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="Amalfi Coast">
+              Amalfi Coast
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="The Great Reef Barrier">
+              The Great Reef Barrier
+            </label>
+          </div>
+        </ol>
+      </form>
+    </div>
 
 </body>
 <html>
