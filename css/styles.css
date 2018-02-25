@@ -1,8 +1,12 @@
-#q2Answers {
+#results1, #results2, #results3 {
   display: none;
 }
 
 .answers {
   font-style: italic;
   font-weight: 900;
+}
+
+.btn {
+  display: block;
 }
