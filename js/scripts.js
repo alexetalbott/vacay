@@ -8,10 +8,21 @@ $(document).ready(function() {
 
     $(".yourNewName").text(yourNewName);
 
-    if ()
-    $("#results1").show();
+    event.preventDefault();
 
-event.preventDefault();
+    if (favoriteLocation === 'Dominican Republic') {
+      $("#results2").hide()
+      $("#results3").hide();
+      $("#results1").show();
+    } else if (favoriteLocation === 'Amalfi Coast') {
+      $("#results1").hide();
+      $("#results3").hide();
+      $("#results2").show();
+    } else {
+      $("#results1").hide();
+      $("#results2").hide();
+      $("#results3").show();
+    }
   });
 
 
