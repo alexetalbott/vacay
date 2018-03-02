@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website is a client-facing site that surveys the user with 5 questions, 4 of which concern their preferences. Based on those questions, a personalized result is provided to the user, describing to the user their ideal vacation destination._
+_This website is a client-facing site that surveys the user with 5 questions, 4 of which concern their preferences. Based on those questions, a personalized result is provided to the user, describing to the user their ideal vacation destination. Check out the website in action [here](https://alexetalbott.github.io/vacay/)!_
 
 ## Setup/Installation Requirements
 
